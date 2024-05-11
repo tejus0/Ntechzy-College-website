@@ -1,0 +1,39 @@
+/* Carousel.Item{
+    margin: 50px;
+}
+
+.carousel-indicators [data-bs-target] {
+    border-radius: 100%;
+    width: 10px;
+    height: 10px;
+} */
+
+.carousel-item{
+    z-index: -3;
+    height: 25rem;
+    background: #777;
+}
+
+/* #carouselExampleCaptions{
+    margin: 10px;
+    z-index: -3;
+} */
+
+/* .bg-img-1{
+    background-image: url("../../assets/carousel-Image1.jpg") ;
+}
+.bg-img-2{
+    background-image: url("../../assets/carousel-Image2.jpg");
+}
+.bg-img-3{
+    background-image: url("../../assets/carousel-Image3.jpg");
+} */
+
+/* .carousel-image{
+    height: 70vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+     object-fit: cover; 
+    
+} */
