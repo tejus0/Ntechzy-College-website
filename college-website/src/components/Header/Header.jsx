@@ -8,13 +8,14 @@ import navLinksData from "../../components/Navbar/data.json";
 const Header = () => {
   return (
     <div className="header-parent">
-      <header className="header">
+      {/* <header className="header">
         <a href="#" className="logo-anchor">
           <img className="logo" src={logo} alt="logo" />
         </a>
         <Navbar navLinksData={navLinksData} />
-      </header>
+      </header> */}
         {/* <Carousal /> */}
+        <Navbar navLinksData={navLinksData} />
     </div>
   );
 };
