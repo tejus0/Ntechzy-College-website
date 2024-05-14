@@ -3,7 +3,8 @@ import Header from "./components/Header/Header";
 import Carousal from "./components/Carousal/Carousal";
 import About from "./pages/About/About";
 import Navbar from "./components/Navbar/Navbar";
-
+import Slider from "./components/ActiveSlider/Slider";
+import  {Advantages}  from "./pages/Advantages/Advantages";
 function App() {
   return (
     <div className="App">
@@ -13,6 +14,8 @@ function App() {
       <Carousal />
       {/* </section> */}
         <About />
+        <Slider />
+        <Advantages />
     </div>
   );
 }
