@@ -5,6 +5,9 @@ import About from "./pages/About/About";
 import Navbar from "./components/Navbar/Navbar";
 import Slider from "./components/ActiveSlider/Slider";
 import  {Advantages}  from "./pages/Advantages/Advantages";
+import About2 from "./pages/About/About2/About2";
+import FAQ from "./components/FAQ/FAQ";
+
 function App() {
   return (
     <div className="App">
@@ -16,6 +19,8 @@ function App() {
         <About />
         <Slider />
         <Advantages />
+        <FAQ />
+
     </div>
   );
 }
