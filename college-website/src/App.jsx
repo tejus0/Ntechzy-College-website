@@ -7,6 +7,8 @@ import Slider from "./components/ActiveSlider/Slider";
 import  {Advantages}  from "./pages/Advantages/Advantages";
 import About2 from "./pages/About/About2/About2";
 import FAQ from "./components/FAQ/FAQ";
+import Events from "./pages/Events/Events";
+import Gallery from "./pages/Gallery/Gallery";
 
 function App() {
   return (
@@ -20,6 +22,8 @@ function App() {
         <Slider />
         <Advantages />
         <FAQ />
+        <Gallery />
+        <Events />
 
     </div>
   );
