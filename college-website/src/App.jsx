@@ -9,7 +9,10 @@ import About2 from "./pages/About/About2/About2";
 import FAQ from "./components/FAQ/FAQ";
 import Events from "./pages/Events/Events";
 import Gallery from "./pages/Gallery/Gallery";
-
+import Notices from "./pages/Notices/Notices";
+import Testimonials from "./pages/Testimonials/Testimonials";
+import Testimonials1 from "./pages/Testimonials/Testimonials1";
+import Footer from "./components/Footer/Footer";
 function App() {
   return (
     <div className="App">
@@ -23,7 +26,11 @@ function App() {
         <Advantages />
         <FAQ />
         <Gallery />
-        <Events />
+        <Notices />
+        {/* <Testimonials /> */}
+        <Testimonials1 />
+        <Footer/>
+        {/* <Events /> */}
 
     </div>
   );
