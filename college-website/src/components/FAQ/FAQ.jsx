@@ -1,23 +1,4 @@
-// import React from "react";
-// import Accordion from "./Accordion";
 
-// const FAQ = () => {
-//   return (
-//     <div className="p-4 bg-gray-200 rounded-lg">
-//       <Accordion
-//         title="Do you prefer Android or iOS"
-//         answer="I like to use iOS products"
-//       />
-//       <Accordion
-//         title="Do you prefer writing CSS or Tailwind?"
-//         answer="I like to use Tailwind"
-//       />
-//       <Accordion title="Firebase or Supabase?" answer="I am using Supabase!" />
-//     </div>
-//   );
-// };
-
-// export default FAQ;
 
 import React, { useState, useEffect } from "react";
 // import {faqdata } from "./FAQData.json"
@@ -66,18 +47,6 @@ const Accordion = () => {
                 text={d.answer}
               />
             ))}
-            {/* <AccordionItem
-              header="How long we deliver your first blog post?"
-              text="It takes 2-3 weeks to get your first blog post ready. That includes the in-depth research & creation of your monthly content marketing strategy that we do before writing your first blog post, Ipsum available ."
-            />
-            <AccordionItem
-              header="How long we deliver your first blog post?"
-              text="It takes 2-3 weeks to get your first blog post ready. That includes the in-depth research & creation of your monthly content marketing strategy that we do before writing your first blog post, Ipsum available ."
-            />
-            <AccordionItem
-              header="How long we deliver your first blog post?"
-              text="It takes 2-3 weeks to get your first blog post ready. That includes the in-depth research & creation of your monthly content marketing strategy that we do before writing your first blog post, Ipsum available ."
-            />*/}
         </div>
           <div className="w-full px-4 lg:w-1/2">
           {data.slice(data.length / 2).map((d,i)=>(
@@ -86,18 +55,6 @@ const Accordion = () => {
                 text={d.answer}
               />
             ))}
-            {/*<AccordionItem
-              header="How long we deliver your first blog post?"
-              text="It takes 2-3 weeks to get your first blog post ready. That includes the in-depth research & creation of your monthly content marketing strategy that we do before writing your first blog post, Ipsum available ."
-            />
-            <AccordionItem
-              header="How long we deliver your first blog post?"
-              text="It takes 2-3 weeks to get your first blog post ready. That includes the in-depth research & creation of your monthly content marketing strategy that we do before writing your first blog post, Ipsum available ."
-            />
-            <AccordionItem
-              header="How long we deliver your first blog post?"
-              text="It takes 2-3 weeks to get your first blog post ready. That includes the in-depth research & creation of your monthly content marketing strategy that we do before writing your first blog post, Ipsum available ."
-            /> */}
           </div>
         </div>
       </div>

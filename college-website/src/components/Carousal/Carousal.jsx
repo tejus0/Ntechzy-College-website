@@ -1,25 +1,22 @@
 import React from "react";
+import bannerImage from "../../assets/Header/banner_homepage_01.jpg"
 
 const Hero = () => {
   return (
     <div className="w-full">
       <img
         className="top-0 left-0 w-full max-h-[50vh] object-cover"
-        src="https://images.pexels.com/photos/38238/maldives-ile-beach-sun-38238.jpeg"
+        src={bannerImage}
         alt="/"
       />
-      {/* <div className='bg-black/30 absolute top-0 left-0 w-full' /> */}
-      <div className="top-[20vh] sm:top-[40vh] absolute flex flex-col justify-center text-white sm:left-[10%] md:left-[10%] md:top-[35vh] max-w-[1100px] m-auto p-4">
-        {/* <div className=' top-[150px] sm:left-[10%] md:left-[10%] md:top-[200px] max-w-[1100px] m-auto absolute p-4'> */}
+      {/* <div className="top-[20vh] sm:top-[40vh] absolute flex flex-col justify-center text-white sm:left-[10%] md:left-[10%] md:top-[35vh] max-w-[1100px] m-auto p-4">
         <h1 className="font-bold text-5xl md:text-7xl drop-shadow-2xl">
           Private Beaches & Getaways
         </h1>
         <button class=" w-[10rem] bg-blue-500 hover:bg-blue-700 text-white font-bold mt-5 py-2 square-full">
           Button
         </button>
-        {/* <button className='bg-white mt-5 text-black '>Reserve Now</button> */}
-        {/* </div> */}
-      </div>
+      </div> */}
     </div>
   );
 };
