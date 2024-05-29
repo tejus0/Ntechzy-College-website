@@ -1,4 +1,4 @@
-
+import Chairman from "../../../../pages/Chaiperson_Message/Chairperson"
 
 export const menuData = [
     {
@@ -12,8 +12,8 @@ export const menuData = [
             {
                 title: "About College",
                 url: "about-college",
-                //content: AboutCollege,
-                // //content: () => (
+                // content: AboutCollege,
+                //content: () => (
 
                 // ),
             },
@@ -34,7 +34,7 @@ export const menuData = [
                 title: "Chairman's Message",
                 // img: "/chairman.png",
                 url: "chairman",
-                //content: Chairman,
+                content: Chairman,
                 // //content: () => (
                 //   <p>
                 //     With the growing institutionalization of education in Ayurveda there

@@ -3,12 +3,13 @@ import Header from "./components/Header/Header";
 // import Carousal from "./components/Carousal/Carousal";
 import Carousel from "./components/Carousal/Carousal";
 // import About from "./pages/About/About";
-import About from "./pages/About/About3/About";
+import About from "./components/About/About3/About";
 import Navbar from "./components/Navbar/Navbar";
 import Navbar2 from "./components/Navbar/Navbar2/Navbar";
+import NavbarSimple from "./components/Navbar/NavbarSimple/NavbarSimple";
 import Slider from "./pages/Glipmse/Slider";
 import { Advantages } from "./pages/Advantages/Advantages";
-import About2 from "./pages/About/About2/About2";
+import About2 from "./components/About/About2/About2";
 import FAQ from "./components/FAQ/FAQ";
 import Events from "./pages/Events/Events";
 import Gallery from "./pages/Gallery/Gallery";
@@ -21,7 +22,7 @@ function App() {
   return (
     <div className="App">
       {/* <section className="h-screen bg-Hero bg-cover font-[Poppins] md:bg-top bg-center"> */}
-      <Navbar2 />
+      <NavbarSimple/>
       {/* <h1 className="text-5xl text-red-500 underline">Hello world!</h1> */}
       <Carousel />
       {/* </section> */}
