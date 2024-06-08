@@ -9,6 +9,7 @@ import { IoIosArrowDown } from "react-icons/io";
 import { FiMenu } from "react-icons/fi";
 import { AiOutlineClose } from "react-icons/ai";
 import { useAutoAnimate } from "@formkit/auto-animate/react";
+import { MenuList } from "./MenuList";
 
 const navItems = [
   {
@@ -83,7 +84,7 @@ export default function NavbarItem() {
 
       {/* right side data */}
       <section className="hidden md:flex items-center gap-8">
-        {navItems.map((d, i) => (
+        {MenuList.map((d, i) => (
           <div key={i} className="relative group">
             <Link
               to={d.link ?? "#"}
